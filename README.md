@@ -1,0 +1,1 @@
+### Aprimorando conhecimentos com o Sequelize
