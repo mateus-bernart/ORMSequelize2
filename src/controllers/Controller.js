@@ -9,7 +9,7 @@ class Controller {
       return res.status(200).json(listaDeRegistro);
     } catch (erro) {
       return res.status(500).json({erro: erro.message})
-    }
+    }   
   }
 
   async pegaUmPorId(req, res) {
