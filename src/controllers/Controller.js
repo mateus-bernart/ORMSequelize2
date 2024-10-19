@@ -50,13 +50,14 @@ class Controller {
   }
 
   async atualiza(req, res) {
-    const { id } = req.params;
+    const { ...params } = req.params;
     const dadosAtualizados = req.body;
+    const where = converteIds(params);
     try {
       //isUpdated
       const foiAtualizado = await this.entidadeService.atualizaRegistro(
         dadosAtualizados,
-        Number(id)
+        Number(where)
       );
       if (!foiAtualizado) {
         return res
