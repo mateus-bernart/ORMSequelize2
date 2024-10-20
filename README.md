@@ -10,4 +10,4 @@
 - Consultar turmas por intervalo de data (para não receber informações desnecessárias (turmas antigas))
 - Consultar por query params (strings)
 - Saber quais cursos tem está lotado (validar quantas matrículas possui através de do Sequelize.literal para passar uma query SQL personalizada.)
-- Uso de transactions para o gerenciamento de atualizações no banco de dados. (mudança ou rollback)
+- Uso de transactions para o gerenciamento de atualizações no banco de dados através do Sequelize. (mudança total ou rollback)
