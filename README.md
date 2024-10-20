@@ -6,3 +6,6 @@
 - Tratamento de erro para email inválido (biblioteca validate: isEmail) do Sequelize
 - Mock (função externa) de validação dentro do objeto validate para o CPF
 - - Uso de helper functions para validação de dados, formatação de dados de saída, conversão de tipo de dados, etc.
+- Consultar todas as matriculas confirmadas de forma rápida.
+- Consultar turmas por intervalo de data (para não receber informações desnecessárias (turmas antigas))
+- Consultar por query params (strings)
